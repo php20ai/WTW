@@ -24,8 +24,8 @@ def cumulative(input):
                Sheet.cell(i,k).value=sheet.cell(i,k).value
             workbook.save('output.xlsx')
     workbook.worksheets()
-    ## Now i am planning to access each worksheet of the excel file "output.xlsx", then sort the orgin year column in ascending order, then create a new column that contains the
-    # # cumalative development values, then create a seperate worksheet such that in 
-    # # the 1st row it has the earliest origin year and the maximum number of development years
+    #Now i am planning to access each worksheet of the excel file "output.xlsx", then sort the orgin year column in ascending order, then create a new column that contains the
+    # cumalative development values, then create a seperate worksheet such that in 
+    # the 1st row it has the earliest origin year and the maximum number of development years
    # then in the consecutive rows, thier will be the product name in the first column, then the cumulative of the claims paid at each development year, then I would convert
    # this worksheet into a csv file, hence this will be the output.
